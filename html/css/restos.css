@@ -1,0 +1,636 @@
+body {
+  background-color: #fff0b5;
+  //background-color:#ffe699;
+   width: 100%;
+   margin-left: 0px;
+   margin-top: 0px;
+   margin-right: 0px;
+   margin-bottom: 0px;
+   font-family: "font";
+}
+
+@font-face {
+    font-family: "font";
+    src: url("../fonts/Philosopher-Regular.ttf") format("opentype");   
+}
+
+@font-face {
+    font-family: "fontprodus";
+    src: url("../fonts/Berry.ttf") format("opentype");   
+}
+
+#titlu {
+  background-color: #ffa366;
+  //background-color:#990033;  
+font-size: 50px;
+   color: black;
+   text-align: center;
+   width: 100%;
+   //font-family: 'Quintessential';
+}
+
+
+/*----- menubar -----*/
+#menubar ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: #ffa366;
+   //background-color:#ffd24d;
+   color: white;
+}
+
+#menubar li {
+   float: left;
+   width: 33.33%;
+   font-size: 13px;
+}
+
+#menubar li a {
+   display: block;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   color: white;
+   //font-family: 'Quintessential';
+}
+
+#menubar li a:hover:not(.active) {
+   background-color: #ffa366;
+   color:white;
+}
+
+#menubar a.active {
+   background-color: #ffa366;
+   border-bottom: solid 3px black;
+   color: black;
+}
+/*----- end menubar -----*/
+
+
+/*----- menubar2 -----*/
+#menuba {
+  position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}
+#menuba ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: #ffa366;
+   //background-color:#ffd24d;
+   color: white;
+}
+
+#menuba li {
+   float: left;
+   width: 33.33%;
+   font-size: 13px;
+}
+
+#menuba li a {
+   display: block;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   color: white;
+   //font-family: 'Quintessential';
+}
+
+#menuba li a:hover:not(.active) {
+   background-color: #ffa366;
+   color:white;
+}
+
+#menuba a.active {
+   background-color: #ffa366;
+   border-bottom: solid 3px black;
+   color: black;
+}
+/*----- end menubar2 -----*/
+
+
+#continut {
+   width: 100%;
+   background-color: #ffa366;
+}
+
+#poza {
+   width: 100%;
+   position: absolute;
+   height: 100px;
+}
+
+#input_search input {
+  background-color: #ffa366;
+  // background-color: white;
+    color: black;
+   padding: 15px 0px;
+   border: 0px;
+   font-size: 16px;
+   margin: 1% 0px 1% 0px;
+   width: 100%;
+   display: inline-block;
+}
+
+#input_search form {
+   width: 100%;
+   background-color: #ffa366;
+//background-color: white;
+   display: flex;
+   align-items: center;
+}
+
+#search {
+   //background-image: url('/img/lupa.png');
+   //background-image: url('/img/advanced.png');
+   //background-size: 25px 25px;
+   //background-repeat: no-repeat;
+   //background-position: right 7px bottom 11px;
+   //outline: none;
+   //text-indent: 20px;
+}
+
+// doar daca la advanced search avem img cu roata dintata;
+#input_search #advanced {
+   float: right;
+   width: 25px;
+   margin-right: 7px;
+}
+
+#adv_search a {
+   //float: left;
+   //display: block;
+   //width: 100%;
+   //text-decoration: none;
+   //margin-left: 10px;
+   //margin-top: 10px;
+}
+
+#back {
+   position: relative;
+   display: none;
+   height: 24px;
+}
+
+::-webkit-input-placeholder { 
+   color: #8c8c8c;
+   font-size: 14px;
+   font-family: "font";
+}
+
+#restos {
+   float: left;
+   display: block;
+   width: 100%;
+   color: black;
+}
+
+.resto {
+   float: left;
+   display: block;
+   position: relative;
+   width: 100%; 
+}
+
+.resto img {
+   float: left;
+   color: black;
+   width: 100%;
+   height: 200px;
+   border-radius: 8px 8px 0px 0px;
+}
+
+.numerls {
+   background-color: #ffa366;
+   color: black;
+   //font-family: "Comic Sans MS", cursive, sans-serif;
+   float: left;
+   width: 100%;
+   font-size: 13px;
+   text-align: center;
+   margin-bottom: 1%;
+   margin-top: 0;
+   border-radius: 0px 0px 8px 8px;
+}
+
+#numeresto {
+   background: linear-gradient(#ffa366, #fff0b5);
+   font-size: 50px;
+   color: black;
+   text-align: center;
+   width: 100%;
+   height: 10%;
+}
+
+#numeresto2 {
+   background: linear-gradient(#ffa366, #fff0b5);
+   font-size: 30px;
+   color: black;
+   text-align: center;
+   width: 100%;
+   height: 10%;
+   padding-top: 10px;
+}
+#numeresto3 {
+   background: linear-gradient(#ffa366, #fff0b5);
+   font-size: 30px;
+   color:black;
+   text-align: center;
+   width: 100%;
+   height: 10%;
+   padding-top: 10px;
+}
+
+
+.rest {
+   display: block;
+   width: 100%;
+}
+
+.rest img {
+   border: 0px solid #ccc;
+   width: 100%;
+   height: 30%;   margin-top: 1%;
+   margin-bottom: 0;
+}
+
+#adr {
+   background: linear-gradient(#fff0b5, #ffa366);
+   color: black;
+   padding: 9px;
+   text-align: left;
+   font-size: 16px;
+}
+
+#likes {
+   float: right;
+   margin-right: -15px;
+}
+
+#likeimg {
+}
+
+#like {
+   float: right;
+   position: relative;
+   width: 35px;
+   margin-top: -96px;
+   margin-right: 60px;
+}
+
+
+#fave img {
+   width: 22px;
+}
+#fave {
+   float: right;
+   position: relative;
+   margin-top: -75px;
+   margin-right: 65px;
+}
+
+
+#phone {
+   width: 15px;
+   height: 15px;
+}
+
+#showmap {
+   float: right;
+   position: relative;
+   width: auto;
+   margin-top: -45px;
+   margin-right: 10px;
+}
+
+#show_map {
+   background-color: #fff0b5;
+   border: none;
+   color: black;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 20px;
+   cursor: pointer;
+   border-radius: 10px;
+   float: left;
+   height: max-height;	
+}
+
+#show_map:hover {
+   background-color: white; 
+   color: black;
+}
+
+#map {
+   height: 600px;
+   width: 100%;
+}
+
+img#close {
+   width: 10.5%;
+   float: right;
+   z-index: 9999;
+   position: absolute;
+   margin-left: 89.5%;
+   margin-top: 5px;
+}
+
+#button {
+   background-color: #ffa366;
+   border: none;
+   color: black;
+   padding: 15px 0px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 20px;
+   cursor: pointer;
+   -webkit-transition-duration: 0.4s; /* Safari */
+   transition-duration: 0.4s;
+   float: left;
+   width: 100%;
+   border-top: 2px solid  #fff0b5;
+   border-bottom: 2px solid  #ffa366;
+   height: max-height;		
+}
+
+#button:hover {
+   background-color: white; 
+   color: black; 
+   border-top: 2px solid #ffeb99;
+   border-bottom: 2px solid #ffeb99;  
+}
+
+#numeprodus {
+   font-size: 30px;
+   color: black;
+   width: 100%;
+   padding-top: 10px;
+   font-weight: bold;
+   //font-family: "fontprodus";
+}
+
+#pozaprodus img {
+   width: 100%;
+   height: 200px;
+   //opacity: 0.5;
+}
+
+#descrierep {
+   margin-left: 5%;
+   font-family: "fontprodus";
+}
+
+#pret {
+   float: right;
+}
+
+
+#listap {
+   background-color: red;
+   color: black;
+   padding: 12px;
+   text-align: left;
+   border: 2px solid #555555;
+   font-size: 16px;
+   border-radius: 12px;
+}
+
+.lista {
+   background-color: #33ccff;
+   color: black;
+   padding: 12px;
+   text-align: left;
+   border: 2px solid #555555;
+   font-size: 16px;
+   border-radius: 12px;	
+}
+
+.lista a {
+   color: black;
+}
+
+
+/*----- meniu accordion -----*/
+button.accordion {
+   background: linear-gradient(#ffa366, #ffb380);
+   color: black;
+   cursor: pointer;
+   padding: 18px;
+   width: 100%;
+   border: none;
+   text-align: left;
+   outline: none;
+   font-size: 15px;
+   transition: 0.4s;
+   border-radius: 10px;
+   margin-top: 1%;
+}
+
+button.accordion.active, button.accordion:hover {
+   background-color: white; 
+}
+
+#box {
+   //padding-bottom:5%;
+   border-bottom: 2px solid gray;
+}
+
+div.panel {
+   padding: 0 25px;
+   display: none;
+   background-color: #ffe0cc;
+   border-radius: 10px;
+}
+
+div.panel.show {
+   display: block;
+}
+
+div.panel a {
+   text-decoration: none;
+   color: black;
+   margin-left: 40px;
+}
+
+div.panel a:hover{
+   text-decoration: none;
+   margin-left: 40px;
+}
+/*----- end meniu accordion -----*/
+
+
+/*----- star rating -----*/
+.rating {
+   float: left;
+}
+
+.rating span {
+   float: right;
+   position: relative;
+}
+
+.rating span input {
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   opacity: 0;
+}
+
+.rating span label {
+   display: inline-block;
+   width: 16px;
+   height: 16px;
+   text-align: center;
+   background: url('/img/star.png') 0 -16px;
+   margin-right: 10px;
+}
+
+.rating span:hover ~ span label,
+.rating span:hover label,
+.rating span.checked label,
+.rating span.checked ~ span label {
+   background: url('/img/star.png') -16px 0;
+}
+
+#nota {
+   display: none;
+}
+
+
+span.stars, span.stars span {
+ display: inline-block;
+ background: url('/img/star.png') 0 -16px;
+ width: 80px;
+ height: 16px;
+}
+span.stars span {
+ background-position: 0 0;
+}
+/*----- end star rating -----*/
+
+
+.commentshow {
+   //border: 2px solid #ddd;
+  background-color: #ffa366;
+   margin: 1%;
+   padding: 1%;
+}
+
+
+#mycomments {
+   float: left;
+   display: block;
+   width: 100%;
+}
+
+#myrestos {
+   float: left;
+   display: block;
+   width: 100%;
+}
+
+div#ramase {
+   clear: both;
+   color: #a1a1a1;
+   font-size: 12px;
+   padding-left: 5px;
+}
+
+.nfpoze {
+   width: 60%;
+   margin-left: 20%;
+   margin-right: 20%;
+}
+
+.nr {
+   float: right;
+}
+
+.delete {
+   float: right;
+   margin-top: -23px;
+}
+
+.navprof {
+//font-size: 20px;
+//color: black;
+//margin-left: 3%;
+//margin-right: 3%;
+//margin-bottom: 3%;
+//border-bottom: 1px solid grey;
+//width: 100%;
+}
+
+.navprof ul {
+//width: 100%;
+//border-bottom: 1px solid grey;
+}
+
+.navprof a {
+   background-color: #ffa366;
+   text-decoration: none;
+   color: black;
+   padding: 15px 0;
+   text-align: center;
+   width: 98%;
+   display: block;
+   margin: 0 auto;
+}
+
+#profilother img {
+   width: 100px;
+float: right;
+left: 0;
+position: relative;
+   height: 100px;
+}
+
+.link {
+   vertical-align: top;
+}
+
+#restofav {
+   height: 100px;
+}
+
+#restofav img {
+   float: left;
+   width: 150px;
+   height: 100px;
+   margin-left: -10px;
+}
+
+#restofav span {
+   margin-left: 10px;
+}
+
+#restofav a {
+   float: left;
+   margin-left: 10px;
+}
+
+
+.sageti {
+float: left;
+width: 5%;
+}
+
+#profilbut{
+ background-color: #ffa366;
+   color: black;
+   padding: 15px 0px;
+   text-align: center;
+   border: 0px;
+   font-size: 16px;
+   //border-radius: 8px;
+   //margin: 10px 0px 5px 0px;
+   width: 100%;
+   float: right;
+}

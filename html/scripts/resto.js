@@ -1,0 +1,1 @@
+document.getElementById("numeresto").innerHTML = '<?php echo $rezultat[1]; ?>';

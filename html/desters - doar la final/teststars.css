@@ -1,0 +1,11 @@
+span.stars, span.stars span {
+    display: block;
+    
+    background: url('/img/star.png') 0 -16px;
+    width: 80px;
+    height: 16px;
+}
+
+span.stars span {
+    background-position: 0 0;
+}

@@ -1,0 +1,287 @@
+body {
+   background-color: #fff0b5;
+   width: 100%;
+   margin-left: 0px;
+   margin-top: 0px;
+   margin-right: 0px;
+   margin-bottom: 0px;
+   //font-family: "Comic Sans MS", cursive, sans-serif;
+   font-family: "font";
+}
+
+@font-face {
+   font-family: "font";
+   src: url("../../fonts/Philosopher-Regular.ttf") format("opentype");   
+   /* Make sure you defined the correct path, which is related to the location of your file `my_css.css` */ 
+}
+
+#titlu {
+   //background: linear-gradient(#ffa366, #fff0b5);
+   background-color: #ffa366;
+   font-size: 50px;
+   color:black;
+   text-align: center;
+   // padding-left:4%;
+   width: 100%;
+   //font-family: 'Quintessential';
+}
+
+
+/*----- menubar -----*/
+#menubar ul {
+   list-style-type: none;
+   margin:0;
+   padding: 0;
+   overflow: hidden;
+   background-color: #ffa366;
+   color: black;
+}
+
+#menubar li {
+   float: left;
+   width: 33.33%;
+   font-size: 13px;
+}
+
+#menubar li a {
+   display: block;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   color: #8c8c8c;
+   //font-family: 'Quintessential';
+}
+
+#menubar li a:hover:not(.active) {
+   background-color: #ffa366;
+   color: black;
+}
+
+#menubar a.active {
+   background-color: #ffa366;
+   border-bottom: solid 3px black;
+   color: black;
+}
+/*----- end menubar -----*/
+
+
+#bback {
+   display: inline-block;
+   position: absolute;
+   z-index: 1;
+   padding: 0 10px 0 30px;
+   left: 50%;
+   top: 25%;
+    
+   line-height: 44px;
+   text-shadow: 0 -1px #4d4d4d;
+   color: #E5E5E5;
+   text-decoration: none;
+   //font-family: sans-serif;
+   font-size: 12px;
+}
+
+h1 {
+   text-align: center;
+}
+
+h2 {
+   text-align: center;
+}
+
+.loginform {
+   background-color: #fff0b5;
+   color: black;
+   padding: 15px 0px;
+   text-align: left;
+   //font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+   border-bottom: solid 1px #c7c1b6;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   font-size: 16px;
+   //border-radius: 8px;
+   //margin: 10px 0px 0px 0px;
+   margin-left: 3%;   
+   margin-right: 3%;
+   width: 94%;
+}
+
+.loginform:focus {
+   color: black;
+   border-color: black;
+}
+
+.forgotform {
+   background-color: #fff0b5;
+   color: black;
+   padding: 15px 0px;
+   text-align: left;
+   //font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+   border-bottom: solid 1px #c7c1b6;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   font-size: 16px;
+   //border-radius: 8px;
+   //margin: 10px 0px 0px 0px;
+   margin-left: 3%;   
+   margin-right: 3%;
+   margin-top: 25%;
+   width: 94%;
+}
+
+.forgotform:focus {
+   color: black;
+   border-color: black;
+}
+
+.buttonlogin {
+   background-color: #ffa366;
+   color: black;
+   padding: 15px 0px;
+   text-align: center;
+   border: 0px;
+   font-size: 16px;
+   //border-radius: 8px;
+   //margin: 10px 0px 5px 0px;
+   width: 100%;
+   float: right;
+}
+
+.buttonlogin2 {
+   background-color: #ffa366;
+   color: black;
+   padding: 15px 0px;
+   text-align: center;
+   border: 0px;
+   font-size: 16px;
+   //border-radius: 8px;
+   margin: 5% 10% 0px 10%;
+   width: 80%;
+   float: right;
+}
+
+::-webkit-input-placeholder { 
+   #c7c1b6
+   text-align:left;
+   //font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+   font-family: "font";
+}
+
+input: focus {
+   border-color:white;
+}
+
+.submit {
+   background-color: #ffa366;
+   color: black;
+   padding: 15px 0px;
+   text-align: center;
+   border: 0px;
+   font-size: 16px;
+   //margin: 10px 0px 5px 0px;
+   margin-left: 3%;   
+   margin-right: 3%;
+   width: 94%;
+   font-family: "font";
+}
+
+.submit2b {
+   background-color: #ffa366;
+   color: black;
+   padding: 15px 0px;
+   text-align: center;
+   border: 0px;
+   font-size: 16px;
+   margin-left: 3%;   
+   margin-right: 3%;
+   width: 30%;
+   font-family: "font";
+}
+
+#form {
+   text-align: center;
+   //font-size: 20px;
+}
+
+#alert {
+   //background-color: #f0a675;
+   //border: solid 2px #ffa366;
+   margin: 5% 0 5% 0%;
+   text-align: center;	
+}
+
+#con {
+   font-size: 20px;
+   text-align: center;
+}
+
+/* Center the loader */
+#loader {
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   z-index: 1;
+   width: 150px;
+   height: 150px;
+   margin: -75px 0 0 -75px;
+   border: 16px solid #f3f3f3;
+   border-radius: 50%;
+   border-top: 16px solid #3498db;
+   width: 120px;
+   height: 120px;
+   -webkit-animation: spin 2s linear infinite;
+   animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+   0% { -webkit-transform: rotate(0deg); }
+   100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+   0% { transform: rotate(0deg); }
+   100% { transform: rotate(360deg); }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+   position: relative;
+   -webkit-animation-name: animatebottom;
+   -webkit-animation-duration: 1s;
+   animation-name: animatebottom;
+   animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+   from { bottom:-100px; opacity:0 } 
+   to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+   from{ bottom:-100px; opacity:0 } 
+   to{ bottom: 0; opacity: 1 }
+}
+
+#myDiv {
+   display: none;
+   text-align: center;
+}
+
+#recover{
+   background-color: #ffa366;
+   color: black;
+   padding: 15px 0px;
+   text-align: center;
+   border: 0px;
+   font-size: 16px;
+   //border-radius: 8px;
+   //margin: 10px 0px 5px 0px;
+   margin-right: 10%;
+   margin-left: 10%;
+   width: 80%;
+}
+#profilepoza{
+float: right;
+}

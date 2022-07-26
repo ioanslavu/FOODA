@@ -1,0 +1,1 @@
+AICI o sa fie scriptul pentru nearest by me (de pe siteul meu)
